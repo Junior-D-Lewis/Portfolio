@@ -58,7 +58,7 @@ function Projects() {
               title="Junior DJOMO"
               description="After so many applications for work-study placements and internships, I decided it was time for me to adopt a better way of showing my different skills. So I had the bright idea of expressing my know-how through a portfolio."
               ghLink="https://github.com/Junior-D-Lewis/portfolio"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              demoLink="https://gatien.vercel.app"
             />
           </Col>
 
