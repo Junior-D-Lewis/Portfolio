@@ -8,32 +8,37 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Junior DJOMO </span>
-            from <span className="purple"> Douala.</span>
+            Bonjour à tous, je suis <span className="purple">Junior DJOMO </span>
             <br />
-            As a young graduate with a passion for web and mobile development, 
-            I'm equally at home on the front-end and back-end. Creative and inquisitive, 
-            I enjoy designing high-performance, intuitive applications, with a particular focus on the user experience. 
-            Always on the lookout for new challenges, I regularly train in emerging technologies to stay at 
-            the cutting edge. If you're looking for a versatile developer, 
-            capable of taking a project from concept to production, I'm ready to collaborate.
+            En tant que récent diplômé passionné par le développement web et mobile,
+            je maîtrise à la fois le développement front-end et back-end. Créatif
+            et curieux, j'aime concevoir des applications performantes, intuitives et
+            axées sur l'expérience utilisateur.
             <br />
-            Apart from coding, some other activities that I love to do!
+            <br />
+            Toujours à la recherche de nouveaux défis, je me forme régulièrement aux
+            technologies émergentes pour rester à la pointe. Si vous recherchez un
+            développeur polyvalent capable de mener un projet de la conception à la
+            production, je suis prêt à collaborer.
+            <br />
+            <br />
+            En dehors du codage, j'aime aussi passer mon temps libre à m'engager dans
+            diverses activités qui alimentent ma créativité et mon esprit d'équipe !
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing sports (Basketball, Fitness)
+              <ImPointRight /> Faire du sport (Basketball, Fitness)
             </li>
             <li className="about-activity">
-              <ImPointRight /> Reading manga
+              <ImPointRight /> Lire des mangas
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Voyager
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Success is not an accident, success is actually a choice."{" "}
+            "Le succès n'est pas le fruit du hasard, c'est en réalité un choix."{" "}
           </p>
           <footer className="blockquote-footer">Stephen Curry</footer>
         </blockquote>

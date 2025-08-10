@@ -11,16 +11,38 @@ import {
   DiDocker,
 } from "react-icons/di";
 import {
-  SiRedis,
+  SiPrisma,
   SiFirebase,
   SiPostgresql,
   SiNestjs,
   SiNeo4J,
+  SiTypescript,
 } from "react-icons/si";
+import { BiLogoSpringBoot } from "react-icons/bi";
+import { FaAws } from "react-icons/fa6";
+import { TbBrandNextjs } from "react-icons/tb";
+
+
+
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      <Col xs={4} md={2} className="tech-icons">
+        <TbBrandNextjs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaAws />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <BiLogoSpringBoot />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTypescript />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPrisma />
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
       </Col>
@@ -44,9 +66,6 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiDocker />
