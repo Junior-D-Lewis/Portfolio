@@ -37,7 +37,7 @@ function Projects() {
               imgPath={soweteach}
               isBlog={false}
               title="SoWeTeach – Plateforme de mise en relation avec des formateurs"
-              description="Participation à la développement d'une solution web facilitant le recrutement, la planification et la gestion de formateurs qualifiés. Contribution à l'optimisation de l'interface utilisateur et à l'intégration d'outils de gestion, avec un accent sur la facilité d'utilisation, l'accès rapide aux experts locaux et la transparence des prix."
+              description="Participation au développement d'une solution web facilitant le recrutement, la planification et la gestion de formateurs qualifiés. Contribution à l'optimisation de l'interface utilisateur et à l'intégration d'outils de gestion, avec un accent sur la facilité d'utilisation, l'accès rapide aux experts locaux et la transparence des prix."
               demoLink="https://www.soweteach.com/"
             />
           </Col>
@@ -86,7 +86,7 @@ function Projects() {
               imgPath={portefolio}
               isBlog={false}
               title="Junior DJOMO"
-              description="Après de nombreuses candidatures pour des stages et contrats en alternance, j'ai décidé de valoriser mes compétences autrement, en créant ce portfolio. Aujourd’hui, je suis à la recherche d’un CDI pour mettre à profit mon savoir-faire et relever de nouveaux défis professionnels."
+              description="Fort de deux années d’expérience en alternance en tant que développeur full-stack et de plusieurs missions freelance réalisées avec succès, j’ai conçu ce portfolio pour mettre en valeur mes projets, mes compétences et ma passion pour le développement. Il reflète mon parcours, mon sens de l’initiative et mon envie constante de progresser à travers de nouveaux défis techniques et créatifs."
               ghLink="https://github.com/Junior-D-Lewis/portfolio"
               demoLink="https://gatien.vercel.app"
             />
