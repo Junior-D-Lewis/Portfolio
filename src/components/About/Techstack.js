@@ -9,6 +9,7 @@ import {
   DiGit,
   DiJava,
   DiDocker,
+  DiJenkins,
 } from "react-icons/di";
 import {
   SiPrisma,
@@ -17,6 +18,8 @@ import {
   SiNestjs,
   SiNeo4J,
   SiTypescript,
+  SiVagrant,
+  SiKubernetes,
 } from "react-icons/si";
 import { BiLogoSpringBoot } from "react-icons/bi";
 import { FaAws } from "react-icons/fa6";
@@ -78,6 +81,15 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiJenkins />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiVagrant />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiKubernetes />
       </Col>
     </Row>
   );
