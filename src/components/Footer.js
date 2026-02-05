@@ -4,6 +4,7 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
+  AiFillGitlab,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -23,9 +24,19 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
+                href="https://gitlab.com/juniordjomo07"
+                style={{ color: "white" }}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <AiFillGitlab />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
                 href="https://github.com/junior-D-Lewis"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillGithub />
@@ -35,7 +46,7 @@ function Footer() {
               <a
                 href="https://twitter.com/JuniorDjomo6"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiOutlineTwitter />
@@ -45,7 +56,7 @@ function Footer() {
               <a
                 href="https://www.linkedin.com/in/junior-djomo-811247224/"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
@@ -55,7 +66,7 @@ function Footer() {
               <a
                 href="https://www.instagram.com/djomojunior/"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillInstagram />
