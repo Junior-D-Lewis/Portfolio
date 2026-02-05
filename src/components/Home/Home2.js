@@ -6,6 +6,7 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
+  AiFillGitlab,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -66,6 +67,16 @@ function Home2() {
               <span className="purple">me contacter</span> via mes réseaux sociaux
             </p>
             <ul className="home-about-social-links">
+              <li className="social-icons">
+                <a
+                  href="https://gitlab.com/juniordjomo07"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <AiFillGitlab />
+                </a>
+              </li>
               <li className="social-icons">
                 <a
                   href="https://github.com/junior-D-Lewis"
